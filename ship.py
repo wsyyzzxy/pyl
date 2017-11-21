@@ -31,7 +31,7 @@ class Ship():
 		self.rect2.y = self.screen_rect.centery/2
 	def blitme(self):
 		self.screen.blit(self.image,self.rect)
-		self.screen.blit(self.image2,self.rect2)
+		#self.screen.blit(self.image2,self.rect2)
 	def update(self):
 		#
 		if self.moving_right and self.rect.right < self.screen_rect.right:
